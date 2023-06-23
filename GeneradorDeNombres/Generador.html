@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Generador de Nombres</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function generarNombre() {
+      var nombres = ["Juan", "María", "Pedro", "Ana", "Luis", "Laura", "Carlos"];
+      var apellidos = ["García", "López", "Rodríguez", "Martínez", "Pérez", "Gómez", "Fernández"];
+      
+      var nombre = nombres[Math.floor(Math.random() * nombres.length)];
+      var apellido1 = apellidos[Math.floor(Math.random() * apellidos.length)];
+      var apellido2 = apellidos[Math.floor(Math.random() * apellidos.length)];
+      
+      var nombreCompleto = nombre + " " + apellido1 + " " + apellido2;
+      
+      document.getElementById("nombre-generado").textContent = nombreCompleto;
+    }
+  </script>
+</head>
+<body>
+  <h1 class="titulo">Generador de Nombres</h1>
+  <button onclick="generarNombre()">Generar Nombre</button>
+  <p id="nombre-generado"></p>
+</body>
+</html>

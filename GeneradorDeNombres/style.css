@@ -1,0 +1,36 @@
+html{
+    background-color: rgb(11, 11, 53);
+}
+body{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+.titulo{
+    color:  white;
+    overflow: hidden;
+    margin-left: 300px;
+    font-size: 200%;
+    position: relative;
+    top: 100px;
+}
+button{
+    width: 400px;
+    height: 30px;
+    background-color: rgb(63, 63, 63);
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+}
+p{
+    color:  white;
+    overflow: hidden;
+    margin-left: 300px;
+    font-size: 200%;
+    position: relative;
+    top: 100px;
+}
